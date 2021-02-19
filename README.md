@@ -12,8 +12,17 @@ We have fine tuned the hyperparameters of the Resnet architecture for finding th
 (which was trained for over 3 days/140 epochs)
 
 ## TFlite model
+
+### The Process
+![TF](https://user-images.githubusercontent.com/57587354/108491006-639a9480-72c9-11eb-95bd-48e9ec099631.jpg)
+
+
+
+
 At last after the model was trained, the saved model was then converted into tflite(Tensorflow lite for small devices)model,
 so that it could be deployed onto the android version of mobile for using the real-time object detection of these bird species.
+
+
 
 Link for further deployment help can be taken from here: https://developers.google.com/ml-kit/vision/object-detection/custom-models/android
 (The Model is in the stage of deployment! Hope it would be done soon :) )
