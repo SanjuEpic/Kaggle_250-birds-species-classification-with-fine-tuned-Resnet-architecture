@@ -9,7 +9,7 @@ The dataset consists of 37k images in total belonging to 250 differetn species o
 ## Keras tuner
 You can find the link for the documentation of keras tuner here: https://keras-team.github.io/keras-tuner/
 We have fine tuned the hyperparameters of the Resnet architecture for finding the best set of hyperparameters and achieved an accuracy of around 95% on validation dataset
-(which was trained for over 3 days)
+(which was trained for over 3 days/140 epochs)
 
 ## TFlite model
 At last after the model was trained, the saved model was then converted into tflite(Tensorflow lite for small devices)model,
