@@ -4,10 +4,11 @@ The dataset was taken from kaggle which consisted of 250 different bird species.
 Due to the heavy size I have used the kaggle API to launch the dataset directly from Google Colab notebook(doing on kaggle itself is also an option!)
 We have even setup a benchmark model (a basic CNN model) for comparing the results with the later built Resnet architecture
 
-The dataset consists of 37k images in total belonging to 250 differetn species of birds.
+The dataset consists of 37k images in total belonging to 250 different species of birds.
 
 ## Keras tuner
 You can find the link for the documentation of keras tuner here: https://keras-team.github.io/keras-tuner/
+
 We have fine tuned the hyperparameters of the Resnet architecture for finding the best set of hyperparameters and achieved an accuracy of around 95% on validation dataset
 (which was trained for over 3 days/140 epochs)
 
