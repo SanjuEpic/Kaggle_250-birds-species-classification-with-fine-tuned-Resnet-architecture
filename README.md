@@ -26,4 +26,3 @@ so that it could be deployed onto the android version of mobile for using the re
 
 
 Link for further deployment help can be taken from here: https://developers.google.com/ml-kit/vision/object-detection/custom-models/android
-(The Model is in the stage of deployment! Hope it would be done soon :) )
